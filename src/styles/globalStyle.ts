@@ -7,6 +7,13 @@ const GlobalStyle = createGlobalStyle`
     background: #fafafa;
     font-family: Open-Sans, Helvetica, Sans-Serif;
   }
+
+  a {
+    text-decoration: none;
+    color: #000;
+  }
 `;
+
+
 
 export { GlobalStyle };
