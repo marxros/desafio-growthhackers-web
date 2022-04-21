@@ -3,7 +3,12 @@ import styled from 'styled-components';
 export const Container = styled.header`
   width: 100%;
   height: 5rem;
-  border-bottom: 1px solid #a8a8b3;
+  border-bottom: 1px solid #DEDEE3;
+  background: #fff;
+
+  @media (max-width: 900px) {
+    display: none;	
+  }
 `;
 
 export const Content = styled.div`
@@ -13,7 +18,11 @@ export const Content = styled.div`
 
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+
+  img {
+    width: 15rem;
+  }
 `
 
 export const Nav = styled.nav`
@@ -51,7 +60,6 @@ export const Nav = styled.nav`
       position: absolute;
       bottom: 1px;
       left: 0;
-      background-color: var(--yellow-500);
     }
   }
 `;
